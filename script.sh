@@ -2,4 +2,4 @@
 
 ruby stream.rb
 
-exec >(env) 2>&1
+exec env

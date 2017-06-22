@@ -1,5 +1,5 @@
 language: ruby
-script: echo hi
+script: ./script.sh
 env:
   global:
     - FOO=foo

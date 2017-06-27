@@ -1,5 +1,5 @@
 sudo: false
-language: ruby
+language: rubby
 dist: trusty
 group: stable
 script: env

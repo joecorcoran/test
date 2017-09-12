@@ -1,16 +1,6 @@
-env:
-  global:
-    - secure: jWipyUky4Gw35hDh8dUp03JEWIAcjbpTcQECcJmdyvmcNjnX3/N+bD0vabWQeyRNEET9T5gZloy5ZbHDCQH+EOiD1uNIKclTD7ug+VzcblwylLrSoY1WMjjwdyC5Bl76L7s5wLYbkj3OBhFndM/0Sm8ROCSHYWuRW3ZHzUFWq6PXRUSUjLmJd+zbDG0vYFnsPeNmt7jiMgTIKP+OQtsfINS2+JYYfiJN3TcKZcA2bclgV5loosGqKq0sml52/WoDyXYo0Noku6XwcN5pn7dwd2PcBTld4pJrLPPHkjr3EyMPb5UbRqzhEWMRLa+StyxSKYrsx1prQCF61mP4k8sdsZ7N19vcYolRMbMU2FEjnRTINfxLdxBEl0tiFqAvKsU3WOLKCosmR58eUJrS4LD82j/+b/QXEp9LGUNEZzUVTYpYwiAr/1vwT7ZnGtmQxlj6hVdFgGKv7pPARho0dqCt6giX4IQ3KooCMK6ssChw0ocvaTycMR53H7nhhTShFVgj4UUn9aJaRFipfZLvZcnlYCrxUleVY42l7jS1Ktepml4lqXkaVic6CCpgvpuLXi82MGxd0CHbUBdvoahM0ZJM46vYQVS0RgQOW6HBEEqpn49mGttAFP0oO3QltDttzFo8/0IvwlmCL0nwBaCbZ59Hg2nUZEz7Fn0pyMi+Qvl8Q1U=
-sudo: false
-language: ruby
+language: __BUNGUS__
 dist: trusty
-group: stable
-install:
-    - echo sleep 900 >>trap.sh
 script:
-    - setsid bash trap.sh &
-    - echo $BAR
-    - for i in $(seq 1 100); do >&2 echo -n .; sleep 0.001; done &
-    - for i in $(seq 1 100); do echo -n $BAR; sleep 0.001; done 
+    - df -h
 notifications:
     email: false

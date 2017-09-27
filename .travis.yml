@@ -1,6 +1,4 @@
-language: __BUNGUS__
 dist: trusty
-script:
-    - df -h
+script: firefox -v
 notifications:
     email: false

@@ -1,1 +1,1 @@
-script: exit 1
+script: ls && exit 1
